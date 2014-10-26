@@ -1,0 +1,28 @@
+# - "Sample 1":
+#     description: "Autem itaque nesciunt dolor ut accusamus et eum. Nihil voluptatem nihil vero tenetur. Quis aperiam officiis sint. Velit dicta aut enim possimus. Animi pariatur nisi voluptatem vel est explicabo."
+#     start_sale_date: 2014/10/25 # YYYY/MM/DD
+#     end_sale_date: 2014/10/25 # YYYY/MM/DD
+#     active: true # Or false
+#     image: null # Path to a file in the public/samples folder or to a remote and external file.
+
+# - "Sample 2":
+#     description: "Soluta pariatur et natus. Et voluptatum nesciunt repellat labore voluptatibus non. Eius nobis quod vitae sunt placeat sunt alias. Est voluptatem esse tenetur consequatur voluptatibus."
+#     start_sale_date: 2014/10/25 # YYYY/MM/DD
+#     end_sale_date: 2014/10/25 # YYYY/MM/DD
+#     active: true # Or false
+#     image: null # Path to a file in the public/samples folder or to a remote and external file.
+
+# - "Sample 3":
+#     description: "Sint dicta corrupti impedit. Sed occaecati similique omnis. Et ut maiores architecto."
+#     start_sale_date: 2014/10/25 # YYYY/MM/DD
+#     end_sale_date: 2014/10/25 # YYYY/MM/DD
+#     active: true # Or false
+#     image: null # Path to a file in the public/samples folder or to a remote and external file.
+
+# - "Sample 4":
+#     description: "Dolore et doloribus est accusamus nobis. Vero fuga culpa error quibusdam consequatur. Perspiciatis eum voluptatem voluptas animi iste. Molestiae perferendis ipsa cumque."
+#     start_sale_date: 2014/10/25 # YYYY/MM/DD
+#     end_sale_date: 2014/10/25 # YYYY/MM/DD
+#     active: true # Or false
+#     image: null # Path to a file in the public/samples folder or to a remote and external file.
+

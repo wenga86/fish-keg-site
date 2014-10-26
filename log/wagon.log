@@ -1,0 +1,599 @@
+# Logfile created on 2014-10-25 17:16:00 -0500 by logger.rb/1.2.8
+uninitialized constant Class::TZInfo
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/values/time_zone.rb:366:in `rescue in []'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/values/time_zone.rb:364:in `[]'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/values/time_zone.rb:337:in `new'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/site_reader.rb:18:in `block in read'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/site_reader.rb:16:in `tap'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/site_reader.rb:16:in `read'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon.rb:260:in `require_mounter'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon.rb:75:in `serve'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon/cli.rb:249:in `serve'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/bin/wagon:12:in `<top (required)>'
+	/Users/eagnew/.gem/ruby/2.1.2/bin/wagon:23:in `load'
+	/Users/eagnew/.gem/ruby/2.1.2/bin/wagon:23:in `<main>'
+
+
+undefined method `[]' for false:FalseClass
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:36:in `add'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:24:in `block in fetch_from_filesystem'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:21:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:21:in `fetch_from_filesystem'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:13:in `read'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon.rb:260:in `require_mounter'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon.rb:75:in `serve'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon/cli.rb:249:in `serve'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/bin/wagon:12:in `<top (required)>'
+	/Users/eagnew/.gem/ruby/2.1.2/bin/wagon:23:in `load'
+	/Users/eagnew/.gem/ruby/2.1.2/bin/wagon:23:in `<main>'
+
+
+[Locomotive::Mounter::Models::ContentField] setting an unknown attribute 'ui-enabled' with the value 'true'
+[Locomotive::Mounter::Models::ContentField] setting an unknown attribute 'ui-enabled' with the value 'true'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:52:in `block in write_attributes'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:49:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:49:in `write_attributes'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:36:in `block in initialize'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:403:in `_run__2988471831069323555__initialize__4594735837389771305__callbacks'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:405:in `__run_callback'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:385:in `_run_initialize_callbacks'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:81:in `run_callbacks'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:23:in `initialize'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/base.rb:16:in `initialize'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:196:in `new'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:196:in `block in setter'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:196:in `map'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:196:in `setter'
+	(eval):6:in `fields='
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:58:in `block in write_attributes'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:49:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:49:in `write_attributes'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:36:in `block in initialize'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:403:in `_run__1769356337494205453__initialize__4594735837389771305__callbacks'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:405:in `__run_callback'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:385:in `_run_initialize_callbacks'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:81:in `run_callbacks'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:23:in `initialize'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/base.rb:16:in `initialize'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:53:in `new'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:53:in `add'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:24:in `block in fetch_from_filesystem'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:21:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:21:in `fetch_from_filesystem'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:13:in `read'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon.rb:260:in `require_mounter'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon.rb:75:in `serve'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon/cli.rb:249:in `serve'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/bin/wagon:12:in `<top (required)>'
+	/Users/eagnew/.gem/ruby/2.1.2/bin/wagon:23:in `load'
+	/Users/eagnew/.gem/ruby/2.1.2/bin/wagon:23:in `<main>'
+
+
+[Locomotive::Mounter::Models::ContentField] setting an unknown attribute 'ui-enabled' with the value 'true'
+[Locomotive::Mounter::Models::ContentField] setting an unknown attribute 'ui-enabled' with the value 'true'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:52:in `block in write_attributes'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:49:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:49:in `write_attributes'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:36:in `block in initialize'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:403:in `_run__2879451994265252504__initialize__817804636801118392__callbacks'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:405:in `__run_callback'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:385:in `_run_initialize_callbacks'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:81:in `run_callbacks'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:23:in `initialize'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/base.rb:16:in `initialize'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:196:in `new'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:196:in `block in setter'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:196:in `map'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:196:in `setter'
+	(eval):6:in `fields='
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:58:in `block in write_attributes'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:49:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:49:in `write_attributes'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:36:in `block in initialize'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:403:in `_run__3827419197008366982__initialize__817804636801118392__callbacks'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:405:in `__run_callback'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:385:in `_run_initialize_callbacks'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:81:in `run_callbacks'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:23:in `initialize'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/base.rb:16:in `initialize'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:53:in `new'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:53:in `add'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:24:in `block in fetch_from_filesystem'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:21:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:21:in `fetch_from_filesystem'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:13:in `read'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon.rb:260:in `require_mounter'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon.rb:75:in `serve'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon/cli.rb:249:in `serve'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/bin/wagon:12:in `<top (required)>'
+	/Users/eagnew/.gem/ruby/2.1.2/bin/wagon:23:in `load'
+	/Users/eagnew/.gem/ruby/2.1.2/bin/wagon:23:in `<main>'
+
+
+no implicit conversion of nil into Hash
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:41:in `merge'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:41:in `block in add'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:40:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:40:in `each_with_index'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:40:in `add'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:24:in `block in fetch_from_filesystem'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:21:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:21:in `fetch_from_filesystem'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:13:in `read'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon.rb:260:in `require_mounter'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon.rb:75:in `serve'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon/cli.rb:249:in `serve'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/bin/wagon:12:in `<top (required)>'
+	/Users/eagnew/.gem/ruby/2.1.2/bin/wagon:23:in `load'
+	/Users/eagnew/.gem/ruby/2.1.2/bin/wagon:23:in `<main>'
+
+
+no implicit conversion of nil into Hash
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:41:in `merge'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:41:in `block in add'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:40:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:40:in `each_with_index'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:40:in `add'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:24:in `block in fetch_from_filesystem'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:21:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:21:in `fetch_from_filesystem'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:13:in `read'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon.rb:260:in `require_mounter'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon.rb:75:in `serve'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon/cli.rb:249:in `serve'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/bin/wagon:12:in `<top (required)>'
+	/Users/eagnew/.gem/ruby/2.1.2/bin/wagon:23:in `load'
+	/Users/eagnew/.gem/ruby/2.1.2/bin/wagon:23:in `<main>'
+
+
+no implicit conversion of nil into Hash
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:41:in `merge'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:41:in `block in add'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:40:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:40:in `each_with_index'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:40:in `add'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:24:in `block in fetch_from_filesystem'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:21:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:21:in `fetch_from_filesystem'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:13:in `read'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon.rb:260:in `require_mounter'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon.rb:75:in `serve'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon/cli.rb:249:in `serve'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/bin/wagon:12:in `<top (required)>'
+	/Users/eagnew/.gem/ruby/2.1.2/bin/wagon:23:in `load'
+	/Users/eagnew/.gem/ruby/2.1.2/bin/wagon:23:in `<main>'
+
+
+* Reloaded "content_types", "content_entries" at 2014-10-26 09:37:20 -0500
+[Locomotive::Mounter::Models::ContentField] setting an unknown attribute 'ui-enabled' with the value 'true'
+[Locomotive::Mounter::Models::ContentField] setting an unknown attribute 'ui-enabled' with the value 'true'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:52:in `block in write_attributes'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:49:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:49:in `write_attributes'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:36:in `block in initialize'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:403:in `_run__384043934742417752__initialize__3709363915988244673__callbacks'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:405:in `__run_callback'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:385:in `_run_initialize_callbacks'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:81:in `run_callbacks'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:23:in `initialize'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/base.rb:16:in `initialize'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:196:in `new'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:196:in `block in setter'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:196:in `map'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:196:in `setter'
+	(eval):6:in `fields='
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:58:in `block in write_attributes'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:49:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:49:in `write_attributes'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:36:in `block in initialize'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:403:in `_run__4279026080156358939__initialize__3709363915988244673__callbacks'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:405:in `__run_callback'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:385:in `_run_initialize_callbacks'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:81:in `run_callbacks'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:23:in `initialize'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/base.rb:16:in `initialize'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:53:in `new'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:53:in `add'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:24:in `block in fetch_from_filesystem'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:21:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:21:in `fetch_from_filesystem'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:13:in `read'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:48:in `block (2 levels) in reload'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:40:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:40:in `block in reload'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter.rb:99:in `with_locale'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:39:in `reload'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon/listen.rb:41:in `block in apply'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/listen-2.7.11/lib/listen/listener.rb:282:in `call'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/listen-2.7.11/lib/listen/listener.rb:282:in `_process_changes'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/listen-2.7.11/lib/listen/listener.rb:239:in `block in _wait_for_changes'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/listen-2.7.11/lib/listen/listener.rb:222:in `loop'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/listen-2.7.11/lib/listen/listener.rb:222:in `_wait_for_changes'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/listen-2.7.11/lib/listen/listener.rb:318:in `block in _start_wait_thread'
+
+
+[Locomotive::Mounter::Models::ContentField] setting an unknown attribute 'ui-enabled' with the value 'true'
+[Locomotive::Mounter::Models::ContentField] setting an unknown attribute 'ui-enabled' with the value 'true'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:52:in `block in write_attributes'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:49:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:49:in `write_attributes'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:36:in `block in initialize'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:403:in `_run__997270063100374134__initialize__3993419120837155771__callbacks'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:405:in `__run_callback'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:385:in `_run_initialize_callbacks'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:81:in `run_callbacks'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:23:in `initialize'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/base.rb:16:in `initialize'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:196:in `new'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:196:in `block in setter'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:196:in `map'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:196:in `setter'
+	(eval):6:in `fields='
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:58:in `block in write_attributes'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:49:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:49:in `write_attributes'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:36:in `block in initialize'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:403:in `_run__596639497090634728__initialize__3993419120837155771__callbacks'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:405:in `__run_callback'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:385:in `_run_initialize_callbacks'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:81:in `run_callbacks'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:23:in `initialize'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/base.rb:16:in `initialize'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:53:in `new'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:53:in `add'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:24:in `block in fetch_from_filesystem'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:21:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:21:in `fetch_from_filesystem'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:13:in `read'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon.rb:260:in `require_mounter'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon.rb:75:in `serve'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon/cli.rb:249:in `serve'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/bin/wagon:12:in `<top (required)>'
+	/Users/eagnew/.gem/ruby/2.1.2/bin/wagon:23:in `load'
+	/Users/eagnew/.gem/ruby/2.1.2/bin/wagon:23:in `<main>'
+
+
+[0;97;49mStarted GET "/" at 2014-10-26 09:38:39 -0500[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 58.6ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-10-26 09:40:25 -0500[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.4ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-10-26 09:40:33 -0500[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.6ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-10-26 09:40:43 -0500[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.5ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-10-26 09:44:45 -0500[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.4ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-10-26 09:44:59 -0500[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.6ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-10-26 09:49:30 -0500[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.5ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-10-26 09:50:21 -0500[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.5ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-10-26 09:51:11 -0500[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 1.6ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-10-26 09:53:38 -0500[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 52.0ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-10-26 10:01:28 -0500[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 76.8ms
+
+[0m
+* Reloaded "content_entries" at 2014-10-26 10:03:48 -0500
+* Reloaded "content_entries" at 2014-10-26 10:03:49 -0500
+* Reloaded "pages", "snippets" at 2014-10-26 10:19:31 -0500
+* Reloaded "pages", "snippets" at 2014-10-26 10:19:39 -0500
+* Reloaded "pages", "snippets" at 2014-10-26 10:20:10 -0500
+* Reloaded "pages", "snippets" at 2014-10-26 10:21:48 -0500
+* Reloaded "pages", "snippets" at 2014-10-26 10:22:25 -0500
+[0;97;49mStarted GET "/" at 2014-10-26 10:22:31 -0500[0m
+Detecting locale EN
+Found page "Home page" [index]
+[0;31;49m[ERROR] Illegal nesting: nesting within a tag that already has content is illegal. - ./app/views/pages/index.liquid.haml:25:in `Home page'
+[0m
+* Reloaded "pages", "snippets" at 2014-10-26 10:24:03 -0500
+[0;97;49mStarted GET "/" at 2014-10-26 10:24:05 -0500[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 7.8ms
+
+[0m
+[0;97;49mStarted GET "/Navbar%20Template%20for%20Bootstrap_files/bootstrap.min.js" at 2014-10-26 10:24:05 -0500[0m
+Detecting locale EN
+[0;32;49mCompleted 404 Not Found in 2.8ms
+
+[0m
+uninitialized constant Class::TZInfo
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/values/time_zone.rb:366:in `rescue in []'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/values/time_zone.rb:364:in `[]'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/values/time_zone.rb:337:in `new'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/site_reader.rb:18:in `block in read'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/site_reader.rb:16:in `tap'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/site_reader.rb:16:in `read'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon.rb:260:in `require_mounter'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon.rb:157:in `push'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon/cli.rb:288:in `push'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/bin/wagon:12:in `<top (required)>'
+	/Users/eagnew/.gem/ruby/2.1.2/bin/wagon:23:in `load'
+	/Users/eagnew/.gem/ruby/2.1.2/bin/wagon:23:in `<main>'
+
+
+uninitialized constant Class::TZInfo
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/values/time_zone.rb:366:in `rescue in []'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/values/time_zone.rb:364:in `[]'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/values/time_zone.rb:337:in `new'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/site_reader.rb:18:in `block in read'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/site_reader.rb:16:in `tap'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/site_reader.rb:16:in `read'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon.rb:260:in `require_mounter'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon.rb:157:in `push'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon/cli.rb:288:in `push'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/bin/wagon:12:in `<top (required)>'
+	/Users/eagnew/.gem/ruby/2.1.2/bin/wagon:23:in `load'
+	/Users/eagnew/.gem/ruby/2.1.2/bin/wagon:23:in `<main>'
+
+
+[0;31;49m      source => You are not allowed to upload "" files, allowed types: jpg, jpeg, gif, png, css, js, swf, flv, eot, svg, ttf, woff, otf, ico, htc, can't be blank
+[0m
+[0;31;49m      source => You are not allowed to upload "" files, allowed types: jpg, jpeg, gif, png, css, js, swf, flv, eot, svg, ttf, woff, otf, ico, htc, can't be blank
+[0m
+[0;31;49m      source => You are not allowed to upload "" files, allowed types: jpg, jpeg, gif, png, css, js, swf, flv, eot, svg, ttf, woff, otf, ico, htc, can't be blank
+[0m
+[0;31;49m      source => You are not allowed to upload "" files, allowed types: jpg, jpeg, gif, png, css, js, swf, flv, eot, svg, ttf, woff, otf, ico, htc, can't be blank
+[0m
+uninitialized constant Class::TZInfo
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/values/time_zone.rb:366:in `rescue in []'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/values/time_zone.rb:364:in `[]'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/values/time_zone.rb:337:in `new'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/site_reader.rb:18:in `block in read'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/site_reader.rb:16:in `tap'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/site_reader.rb:16:in `read'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon.rb:260:in `require_mounter'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon.rb:75:in `serve'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon/cli.rb:249:in `serve'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/bin/wagon:12:in `<top (required)>'
+	/Users/eagnew/.gem/ruby/2.1.2/bin/wagon:23:in `load'
+	/Users/eagnew/.gem/ruby/2.1.2/bin/wagon:23:in `<main>'
+
+
+[Locomotive::Mounter::Models::ContentField] setting an unknown attribute 'ui-enabled' with the value 'true'
+[Locomotive::Mounter::Models::ContentField] setting an unknown attribute 'ui-enabled' with the value 'true'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:52:in `block in write_attributes'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:49:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:49:in `write_attributes'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:36:in `block in initialize'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:403:in `_run__2013744148855930955__initialize__184164999077959__callbacks'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:405:in `__run_callback'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:385:in `_run_initialize_callbacks'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:81:in `run_callbacks'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:23:in `initialize'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/base.rb:16:in `initialize'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:196:in `new'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:196:in `block in setter'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:196:in `map'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:196:in `setter'
+	(eval):6:in `fields='
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:58:in `block in write_attributes'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:49:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:49:in `write_attributes'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:36:in `block in initialize'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:403:in `_run__3069964545773527009__initialize__184164999077959__callbacks'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:405:in `__run_callback'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:385:in `_run_initialize_callbacks'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/callbacks.rb:81:in `run_callbacks'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/fields.rb:23:in `initialize'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/base.rb:16:in `initialize'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:53:in `new'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:53:in `add'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:24:in `block in fetch_from_filesystem'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:21:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:21:in `fetch_from_filesystem'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_types_reader.rb:13:in `read'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon.rb:260:in `require_mounter'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon.rb:75:in `serve'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon/cli.rb:249:in `serve'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/bin/wagon:12:in `<top (required)>'
+	/Users/eagnew/.gem/ruby/2.1.2/bin/wagon:23:in `load'
+	/Users/eagnew/.gem/ruby/2.1.2/bin/wagon:23:in `<main>'
+
+
+uninitialized constant Class::TZInfo
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/values/time_zone.rb:366:in `rescue in []'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/values/time_zone.rb:364:in `[]'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/activesupport-3.2.19/lib/active_support/values/time_zone.rb:337:in `new'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/site_reader.rb:18:in `block in read'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/site_reader.rb:16:in `tap'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/site_reader.rb:16:in `read'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon.rb:260:in `require_mounter'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon.rb:157:in `push'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon/cli.rb:288:in `push'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/bin/wagon:12:in `<top (required)>'
+	/Users/eagnew/.gem/ruby/2.1.2/bin/wagon:23:in `load'
+	/Users/eagnew/.gem/ruby/2.1.2/bin/wagon:23:in `<main>'
+
+
+* Reloaded "content_types", "content_entries" at 2014-10-26 17:13:02 -0500
+* Reloaded "content_types", "content_entries" at 2014-10-26 17:14:05 -0500
+* Reloaded "content_types", "content_entries" at 2014-10-26 17:16:27 -0500

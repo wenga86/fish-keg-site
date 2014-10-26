@@ -1,0 +1,11 @@
+development:
+  host: localhost:8080
+  email: wenga.eric@gmail.com
+  password: ea081424
+
+production:
+  host: thefishkeg.com
+  email: wenga.eric@gmail.com
+  password: S9luk1D9wg
+  api_key: c3170f179454cfbd5fa7626d749a42981db26214
+
