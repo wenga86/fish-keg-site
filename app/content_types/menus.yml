@@ -1,51 +1,38 @@
-# Public name of this content type
+---
 name: Menus
-
-# TODO: explain
+description: The menu page is broken down into multiple sections. Each Menu can have
+  many menu_items with many prices. This is a way to group products as need be.
 slug: menus
-
-# Explanation for the backoffice
-description: A description of the content type for the editors
-
-# Default field (e.g title)
 label_field_name: title
-
-# Order of entries
-order_by: manually # default: manually, also available: created_at or any field slug
-
-# Order direction
-# order_direction: asc # default: asc, also available: desc
-
-# Display entries grouped by <field> in the backoffice
-# group_by: <your field>
-
-# Activate public 'create' API (e.g for a contact form)
-# public_submission_enabled: false
-
-# Emails to be notified on new entries using the public API
-# public_submission_accounts: ['john@acme.net']
-
-# Describe each field. The name shoud always be an underscored string
+order_by: created_at
+order_direction: asc
 fields:
-- title: # Name of the field
+- title:
     label: Title
     type: string
+    hint: This is the title of the menu. It will render as a header for the entire
+      section.
     required: true
-    hint: A description of the field for the editors
-    localized: false
-
-- description: # Name of the field
+    unique: false
+    localized: true
+- description:
     label: Description
     type: text
+    hint: This is explaination of the menu section where special information about
+      the section can be places. Usuallu appears under the title heading. Does allow
+      the user to include basic HTML.
     required: false
-    hint: A description of the field for the editors
-    localized: false
-    # Enable or not the RTE [html|text]
+    unique: false
+    localized: true
     text_formatting: html
-
 - menu_items:
     label: Menu Items
     type: has_many
+    required: false
+    unique: false
+    localized: false
     class_name: menu_items
     inverse_of: menu
-    ui_enabled: false
+    order_by:
+    - created_at
+    - asc

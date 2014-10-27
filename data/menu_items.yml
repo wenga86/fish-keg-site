@@ -1,28 +1,338 @@
-# - "Sample 1":
-#     description: "Autem itaque nesciunt dolor ut accusamus et eum. Nihil voluptatem nihil vero tenetur. Quis aperiam officiis sint. Velit dicta aut enim possimus. Animi pariatur nisi voluptatem vel est explicabo."
-#     start_sale_date: 2014/10/25 # YYYY/MM/DD
-#     end_sale_date: 2014/10/25 # YYYY/MM/DD
-#     active: true # Or false
-#     image: null # Path to a file in the public/samples folder or to a remote and external file.
-
-# - "Sample 2":
-#     description: "Soluta pariatur et natus. Et voluptatum nesciunt repellat labore voluptatibus non. Eius nobis quod vitae sunt placeat sunt alias. Est voluptatem esse tenetur consequatur voluptatibus."
-#     start_sale_date: 2014/10/25 # YYYY/MM/DD
-#     end_sale_date: 2014/10/25 # YYYY/MM/DD
-#     active: true # Or false
-#     image: null # Path to a file in the public/samples folder or to a remote and external file.
-
-# - "Sample 3":
-#     description: "Sint dicta corrupti impedit. Sed occaecati similique omnis. Et ut maiores architecto."
-#     start_sale_date: 2014/10/25 # YYYY/MM/DD
-#     end_sale_date: 2014/10/25 # YYYY/MM/DD
-#     active: true # Or false
-#     image: null # Path to a file in the public/samples folder or to a remote and external file.
-
-# - "Sample 4":
-#     description: "Dolore et doloribus est accusamus nobis. Vero fuga culpa error quibusdam consequatur. Perspiciatis eum voluptatem voluptas animi iste. Molestiae perferendis ipsa cumque."
-#     start_sale_date: 2014/10/25 # YYYY/MM/DD
-#     end_sale_date: 2014/10/25 # YYYY/MM/DD
-#     active: true # Or false
-#     image: null # Path to a file in the public/samples folder or to a remote and external file.
-
+---
+- Shrimp:
+    _slug: fried-shrimp
+    menu: breaded-items
+    description:
+      en: "<p><span>Our Gulf of Mexico White shrimp covered in our spicy batter. Said
+        to be some of the most flavorful shrimp in the world</span></p>"
+    min_pieces: 17
+    max_pieces: 20
+    position: 1
+    on_sale: false
+- Fish Chips:
+    _slug: fish-chips
+    menu: breaded-items
+    description:
+      en: "<p><span>Fish nuggets made with a mild flavored Icelandic Cod complimented
+        with our spicy batter</span></p>"
+    min_pieces: 16
+    max_pieces: 18
+    position: 2
+    on_sale: false
+- Scallops:
+    _slug: scallops
+    menu: breaded-items
+    description:
+      en: <p id="itemDesc" class="itemDesc1">Large juicy scallops from the Grand Banks
+        covered in premium breading.</p>
+    min_pieces: 16
+    max_pieces: 18
+    position: 38
+    on_sale: false
+- Canadian Perch:
+    _slug: canadian-perch
+    menu: breaded-items
+    description:
+      en: "<p><span>Mild tasting perch, cut into long strips and covered in our light
+        batter</span></p>"
+    min_pieces: 8
+    max_pieces: 10
+    position: 4
+    on_sale: false
+- Lake Superior Whitefish:
+    _slug: lake-superior-whitefish
+    menu: breaded-items
+    description:
+      en: "<p><span>Large pieces with a strong flavor covered in a light batter</span></p>"
+    min_pieces: 5
+    max_pieces: 7
+    position: 5
+    on_sale: false
+- Atlantic Scrod:
+    _slug: atlantic-scrod
+    menu: breaded-items
+    description:
+      en: "<p><span>Mild flavored cod cut into nice long pieces and covered in our
+        tasty light batter</span></p>"
+    min_pieces: 8
+    max_pieces: 10
+    position: 6
+    on_sale: false
+- Calamari:
+    _slug: calamari
+    menu: breaded-items
+    description:
+      en: "<p><span>Thin cut rings and tentacles fried to perfection with our light
+        batter</span></p>"
+    position: 7
+    on_sale: false
+- Mississippi Catfish:
+    _slug: mississippi-catfish
+    menu: breaded-items
+    description:
+      en: "<p><span>Bite sized nuggets with a nice full flavor covered on our spicy
+        batter</span></p>"
+    min_pieces: 22
+    max_pieces: 24
+    position: 8
+    on_sale: false
+- Clam Strips:
+    _slug: clam-strips
+    menu: breaded-items
+    description:
+      en: <p id="itemDesc" class="itemDesc1">Fine cut strings of clams covered in
+        our light batter</p>
+    position: 9
+    on_sale: false
+- Tilapia:
+    _slug: tilapia
+    menu: breaded-items
+    description:
+      en: "<p><span>The most popular fish in America cut into long strips and covered
+        in our light batter</span></p>"
+    min_pieces: 10
+    max_pieces: 12
+    position: 10
+    on_sale: false
+- Lake Perch:
+    _slug: lake-perch
+    menu: breaded-items
+    description:
+      en: <p id="itemDesc" class="itemDesc1">From Lake Superior this full flavored
+        fish is cut into nice long strips and covered in our light batter</p>
+    min_pieces: 10
+    max_pieces: 11
+    position: 11
+    on_sale: false
+- Walleye:
+    _slug: walleye
+    menu: breaded-items
+    description:
+      en: <p id="itemDesc" class="itemDesc1">Large pieces cooked to perfection in
+        our light batter</p>
+    min_pieces: 6
+    max_pieces: 7
+    position: 12
+    on_sale: false
+- Smelt:
+    _slug: smelt
+    menu: breaded-items
+    description:
+      en: <p id="itemDesc" class="itemDesc1">Bite size pieces full of flavor covered
+        in our light batter and cooked until nice a crispy</p>
+    min_pieces: 22
+    max_pieces: 24
+    position: 13
+    on_sale: false
+- Orange Roughy:
+    _slug: orange-roughy
+    menu: breaded-items
+    description:
+      en: "<p><span>A sweet tasting New Zealand fish cut into nice long strips and
+        covered in our light batte</span></p>"
+    min_pieces: 7
+    max_pieces: 9
+    position: 14
+    on_sale: false
+- Alaskan Snow Cod:
+    _slug: alaskan-snow-cod
+    menu: breaded-items
+    description:
+      en: <p id="itemTitle" class="itemTitle1"><span>Alaskan cod cut into long strips
+        and covered in our spicy batter</span></p>
+    min_pieces: 9
+    max_pieces: 12
+    position: 15
+    on_sale: false
+- Cod Fish Cakes:
+    _slug: cod-fish-cakes
+    menu: breaded-items
+    description:
+      en: "<p><span>These cakes are a combination cod, onion, potato, salt, pepper,
+        bread crumbs, and celery. They come out crispy on the outside and soft on
+        the inside</span></p>"
+    min_pieces: 4
+    max_pieces: 4
+    position: 15
+    on_sale: false
+- Oysters:
+    _slug: oysters
+    menu: breaded-items
+    description:
+      en: "<p><span>Medium sized oysters lightly breaded in our light batter and cooked
+        to perfection</span></p>"
+    min_pieces: 11
+    max_pieces: 13
+    position: 16
+    on_sale: false
+- Atlantic Salmon:
+    _slug: atlantic-salmon
+    menu: breaded-items
+    description:
+      en: "<p><span>Large thick strips of Atlantic salmon covered in our light batter</span></p>"
+    min_pieces: 7
+    max_pieces: 9
+    position: 17
+    on_sale: false
+- Chicken Nuggets:
+    _slug: chicken-nuggets
+    menu: breaded-items
+    description:
+      en: "<p><span>Made with all white meat chicken and cut into bite sized pieces,
+        lightly battered</span></p>"
+    min_pieces: 20
+    max_pieces: 22
+    position: 18
+    on_sale: false
+- "½ Chicken":
+    _slug: half-chicken
+    menu: breaded-items
+    description:
+      en: "<p><span>Four pieces of chicken (leg, breast, thigh, and wing) covered
+        in a crispy breading</span></p>"
+    min_pieces: 7
+    max_pieces: 9
+    position: 18
+    on_sale: false
+- Jumbo Chicken Wings:
+    _slug: jumbo-chicken-wings
+    menu: breaded-items
+    description:
+      en: <p id="itemDesc" class="itemDesc1">Large lightly breaded winglettes.</p>
+    min_pieces: 6
+    max_pieces: 8
+    position: 19
+    on_sale: false
+- Cajun Catchfish:
+    _slug: cajun-catchfish
+    menu: breaded-items
+    description:
+      en: "<p><span>Made the with the Fish Keg's new cajun batter. These bites size
+        pieces are packed with flavor.</span></p>"
+    min_pieces: 20
+    max_pieces: 22
+    position: 20
+    on_sale: false
+- Trout:
+    _slug: trout
+    menu: breaded-items
+    description:
+      en: ''
+    min_pieces: 7
+    max_pieces: 9
+    position: 21
+    on_sale: false
+- Cocktail Shrimp:
+    _slug: cocktail-shrimp
+    menu: fresh-fish
+    description:
+      en: "<p><span>Gulf of Mexico White Shrimp, hand peeled &amp; cleaned at the
+        highest standard possible</span></p>"
+    min_pieces: 28
+    max_pieces: 36
+    position: 1
+    on_sale: false
+- King Crab Legs:
+    _slug: king-crab-legs
+    menu: fresh-fish
+    description:
+      en: <p id="itemDesc" class="itemDesc1">Large fresh red crab legs loaded with
+        crab meat</p>
+    min_pieces: 2
+    max_pieces: 3
+    position: 2
+    on_sale: false
+- Lobster Tails:
+    _slug: lobster-tails
+    menu: fresh-fish
+    description:
+      en: "<p><span>Large Australian Lobster tails loaded with flavor</span></p>"
+    min_pieces: 1
+    max_pieces: 2
+    position: 3
+    on_sale: false
+- Lemon Pepper Whitefish:
+    _slug: lemon-pepper-whitefish
+    menu: baked-dinners
+    description:
+      en: "<p><span>A generous portion of Whitefish topped with lemon pepper and complimented
+        with a side of mash potatoes and mixed vegetables</span></p>"
+    position: 1
+    on_sale: false
+- Ginger Teriyaki Salmon:
+    _slug: ginger-teriyaki-salmon
+    menu: baked-dinners
+    description:
+      en: "<p><span>A generous portion of Salmon topped with ginger teriyaki and complimented
+        with a side of mash potatoes and mixed vegetables</span></p>"
+    position: 2
+    on_sale: false
+- Amazin Cajun Salmon:
+    _slug: amazin-cajun-salmon
+    menu: baked-dinners
+    description:
+      en: "<p><span>A generous portion of Salmon topped with Cajun rub and complimented
+        with a side of mash potatoes and mixed vegetables</span></p>"
+    position: 3
+    on_sale: false
+- Amazin Cajun Rainbow Trout:
+    _slug: amazin-cajun-rainbow-trout
+    menu: baked-dinners
+    description:
+      en: "<p><span>A generous portion of Trout topped with Cajun rub and complimented
+        with a side of mash potatoes and mixed vegetables</span></p>"
+    position: 4
+    on_sale: false
+- French Fries:
+    _slug: french-fries
+    menu: sides-and-salads
+    description:
+      en: ''
+    position: 1
+    on_sale: false
+- Macaroni Salad, Creamy/Oil & Vinegar Cole Slaw:
+    _slug: macaroni-salad-creamy-slash-oil-and-vinegar-cole-slaw
+    menu: sides-and-salads
+    description:
+      en: ''
+    position: 2
+    on_sale: false
+- Hush Puppies:
+    _slug: hush-puppies
+    menu: sides-and-salads
+    description:
+      en: "<p><span>Corn bread and spices rolled into a ball and cooked until crispy
+        on the outside and a soft center</span></p>"
+    min_pieces: 20
+    max_pieces: 22
+    position: 3
+    on_sale: false
+- American Potato Salad, Three Bean Salad:
+    _slug: american-potato-salad-three-bean-salad
+    menu: sides-and-salads
+    description:
+      en: ''
+    position: 4
+    on_sale: false
+- Sarah Lee Pies (Pecan, Sweet Potato, Pumpkin):
+    _slug: sarah-lee-pies-pecan-sweet-potato-pumpkin
+    menu: sides-and-salads
+    description:
+      en: ''
+    position: 5
+    on_sale: false
+- New England Clam Chowder 8 oz.:
+    _slug: new-england-clam-chowder-8-oz
+    menu: sides-and-salads
+    description:
+      en: "<p><span>A combination of clams, diced potatoes, chopped celery, salt,
+        pepper, onions, &amp; cream, simmered slowly together</span></p>"
+    position: 6
+    on_sale: false
+- Cocktail, Tartar, BBQ, & Hot:
+    _slug: cocktail-tartar-bbq-and-hot
+    menu: sides-and-salads
+    description:
+      en: ''
+    position: 7
+    on_sale: false

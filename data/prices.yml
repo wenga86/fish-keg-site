@@ -1,12 +1,255 @@
-# - "Sample 1":
-#     unit: "Impedit numquam sed totam veniam."
-
-# - "Sample 2":
-#     unit: "Velit sunt corporis ad."
-
-# - "Sample 3":
-#     unit: "Quo perferendis est a accusantium repellendus."
-
-# - "Sample 4":
-#     unit: "Qui blanditiis ipsa aspernatur sit quasi qui aut qui."
-
+---
+- Fried Shrimp:
+    _slug: fried-shrimp
+    cost: 15.99
+    sale_cost: 14.99
+    menu_item: fried-shrimp
+- Frish Chips:
+    _slug: frish-chips
+    cost: 9.99
+    sale_cost: 8.99
+    menu_item: fish-chips
+- Scallops:
+    _slug: scallops
+    cost: 21.99
+    sale_cost: 20.99
+    menu_item: scallops
+- Canadian Perch:
+    _slug: canadian-perch
+    cost: 11.99
+    sale_cost: 10.99
+    menu_item: canadian-perch
+- Lake Superior Whitefish:
+    _slug: lake-superior-whitefish
+    cost: 10.99
+    sale_cost: 9.99
+    unit: ''
+    menu_item: lake-superior-whitefish
+- Atlantic Scrod:
+    _slug: atlantic-scrod
+    cost: 11.99
+    sale_cost: 10.99
+    unit: ''
+    menu_item: atlantic-scrod
+- Calamari:
+    _slug: calamari
+    cost: 11.99
+    sale_cost: 10.99
+    unit: ''
+    menu_item: calamari
+- Mississippi Catfish:
+    _slug: mississippi-catfish
+    cost: 10.99
+    sale_cost: 9.99
+    unit: ''
+    menu_item: mississippi-catfish
+- Clam Strips:
+    _slug: clam-strips
+    cost: 11.99
+    sale_cost: 10.99
+    unit: ''
+    menu_item: clam-strips
+- Tilapia:
+    _slug: tilapia
+    cost: 9.99
+    sale_cost: 8.99
+    unit: ''
+    menu_item: tilapia
+- Lake Perch:
+    _slug: lake-perch
+    cost: 14.99
+    sale_cost: 13.99
+    unit: ''
+    menu_item: lake-perch
+- Walleye:
+    _slug: walleye
+    cost: 14.99
+    sale_cost: 13.99
+    unit: ''
+    menu_item: walleye
+- Smelt:
+    _slug: smelt
+    cost: 8.99
+    sale_cost: 7.99
+    unit: ''
+    menu_item: smelt
+- Orange Roughy:
+    _slug: orange-roughy
+    cost: 18.99
+    sale_cost: 17.99
+    unit: ''
+    menu_item: orange-roughy
+- Alaskan Snow Cod:
+    _slug: alaskan-snow-cod
+    cost: 9.99
+    sale_cost: 8.99
+    unit: ''
+    menu_item: alaskan-snow-cod
+- Cod Fish Cakes:
+    _slug: cod-fish-cakes
+    cost: 10.99
+    sale_cost: 9.99
+    unit: ''
+    menu_item: cod-fish-cakes
+- Oysters:
+    _slug: oysters
+    cost: 19.99
+    sale_cost: 18.99
+    unit: ''
+    menu_item: oysters
+- Atlantic Salmon:
+    _slug: atlantic-salmon
+    cost: 14.99
+    sale_cost: 13.99
+    unit: ''
+    menu_item: atlantic-salmon
+- Chicken Nuggets:
+    _slug: chicken-nuggets
+    cost: 8.99
+    sale_cost: 7.99
+    unit: ''
+    menu_item: chicken-nuggets
+- "½ Chicken":
+    _slug: half-chicken
+    cost: 5.39
+    sale_cost: 4.39
+    unit: ''
+    menu_item: half-chicken
+- Jumbo Chicken Wings:
+    _slug: jumbo-chicken-wings
+    cost: 8.99
+    sale_cost: 7.99
+    unit: ''
+    menu_item: jumbo-chicken-wings
+- Cajun Catchfish:
+    _slug: cajun-catchfish
+    cost: 10.99
+    sale_cost: 9.99
+    unit: ''
+    menu_item: cajun-catchfish
+- Trout:
+    _slug: trout
+    cost: 9.99
+    sale_cost: 8.99
+    unit: ''
+    menu_item: trout
+- Cocktail Shrimp:
+    _slug: cocktail-shrimp
+    cost: 22.99
+    sale_cost: 22.99
+    unit: ''
+    menu_item: cocktail-shrimp
+- King Crab Legs:
+    _slug: king-crab-legs
+    cost: 34.99
+    sale_cost: 34.99
+    unit: ''
+    menu_item: king-crab-legs
+- Lobster Tails:
+    _slug: lobster-tails
+    cost: 49.99
+    sale_cost: 49.99
+    unit: ''
+    menu_item: lobster-tails
+- Lemon Pepper Whitefish:
+    _slug: lemon-pepper-whitefish
+    cost: 8.99
+    sale_cost: 8.99
+    unit: ''
+    menu_item: lemon-pepper-whitefish
+- Ginger Teriyaki Salmon:
+    _slug: ginger-teriyaki-salmon
+    cost: 9.99
+    sale_cost: 9.99
+    unit: ''
+    menu_item: ginger-teriyaki-salmon
+- Amazin Cajun Salmon:
+    _slug: amazin-cajun-salmon
+    cost: 9.99
+    sale_cost: 9.99
+    unit: ''
+    menu_item: amazin-cajun-salmon
+- Amazin Cajun Rainbow Trout:
+    _slug: amazin-cajun-rainbow-trout
+    cost: 8.99
+    sale_cost: 8.99
+    unit: ''
+    menu_item: amazin-cajun-rainbow-trout
+- "½":
+    _slug: half
+    cost: 1.49
+    sale_cost: 1.49
+    unit: ''
+    menu_item: french-fries
+- Full:
+    _slug: full
+    cost: 2.49
+    sale_cost: 2.49
+    unit: ''
+    menu_item: french-fries
+- Individual:
+    _slug: individual
+    cost: 1.19
+    sale_cost: 1.19
+    unit: ''
+    menu_item: macaroni-salad-creamy-slash-oil-and-vinegar-cole-slaw
+- "½":
+    _slug: half-1
+    cost: 1.99
+    sale_cost: 1.99
+    unit: ''
+    menu_item: macaroni-salad-creamy-slash-oil-and-vinegar-cole-slaw
+- Full:
+    _slug: full-1
+    cost: 3.99
+    sale_cost: 3.99
+    unit: ''
+    menu_item: macaroni-salad-creamy-slash-oil-and-vinegar-cole-slaw
+- Per lb.:
+    _slug: per-lb
+    cost: 6.99
+    sale_cost: 6.99
+    unit: ''
+    menu_item: hush-puppies
+- "½":
+    _slug: half-2
+    cost: 2.49
+    sale_cost: 2.49
+    unit: ''
+    menu_item: american-potato-salad-three-bean-salad
+- Full:
+    _slug: full-2
+    cost: 4.99
+    sale_cost: 4.99
+    unit: ''
+    menu_item: american-potato-salad-three-bean-salad
+- Slice:
+    _slug: slice
+    cost: 2.99
+    sale_cost: 2.99
+    unit: ''
+    menu_item: sarah-lee-pies-pecan-sweet-potato-pumpkin
+- Whole:
+    _slug: whole
+    cost: 11.99
+    sale_cost: 11.99
+    unit: ''
+    menu_item: sarah-lee-pies-pecan-sweet-potato-pumpkin
+- New England Clam Chowder 8 oz.:
+    _slug: new-england-clam-chowder-8-oz
+    cost: 3.49
+    sale_cost: 3.49
+    unit: ''
+    menu_item: new-england-clam-chowder-8-oz
+- Individual:
+    _slug: individual-1
+    cost: 0.49
+    sale_cost: 0.49
+    unit: ''
+    menu_item: cocktail-tartar-bbq-and-hot
+- 8 oz.:
+    _slug: 8-oz
+    cost: 2.79
+    sale_cost: 2.79
+    unit: ''
+    menu_item: cocktail-tartar-bbq-and-hot

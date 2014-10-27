@@ -1,12 +1,17 @@
-# - "Sample 1":
-#     description: "Ratione eos dolor ipsum libero suscipit est omnis. Vel quis aut debitis aut praesentium maxime voluptatum. Vero aut reiciendis ut est ut sed sed. Ut quia est voluptas reprehenderit optio."
-
-# - "Sample 2":
-#     description: "Hic quos enim consequatur illum quaerat. Provident eaque facilis assumenda dignissimos ea quia. Labore vel magni dolorem sapiente delectus ut et nostrum. Deleniti porro pariatur blanditiis alias quam facilis. Molestias eligendi iure voluptas."
-
-# - "Sample 3":
-#     description: "A cum nemo aut et nam. Perspiciatis est dolorem aut ipsam adipisci fugit in nulla. Praesentium iste ratione recusandae repellat doloremque."
-
-# - "Sample 4":
-#     description: "Adipisci labore quisquam est qui nemo molestiae. Ab ipsa sed qui natus unde. Reprehenderit qui nam sint molestiae. Harum molestiae sed quas laborum non omnis eaque."
-
+---
+- Breaded Items:
+    _slug: breaded-items
+    description:
+      en: ''
+- Fresh Seafood:
+    _slug: fresh-fish
+    description:
+      en: ''
+- Baked Dinners:
+    _slug: baked-dinners
+    description:
+      en: ''
+- Sides & Salads:
+    _slug: sides-and-salads
+    description:
+      en: ''

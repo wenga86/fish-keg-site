@@ -1,63 +1,46 @@
-# Public name of this content type
+---
 name: Prices
-
-# TODO: explain
-slug: prices
-
-# Explanation for the backoffice
 description: A description of the content type for the editors
-
-# Default field (e.g title)
+slug: prices
 label_field_name: title
-
-# Order of entries
-order_by: manually # default: manually, also available: created_at or any field slug
-
-# Order direction
-# order_direction: asc # default: asc, also available: desc
-
-# Display entries grouped by <field> in the backoffice
-# group_by: <your field>
-
-# Activate public 'create' API (e.g for a contact form)
-# public_submission_enabled: false
-
-# Emails to be notified on new entries using the public API
-# public_submission_accounts: ['john@acme.net']
-
-# Describe each field. The name shoud always be an underscored string
+order_by: manually
+order_direction: asc
+group_by: menu_item
 fields:
-- title: # Name of the field
+- title:
     label: Title
     type: string
+    hint: A title to define what this price is for
     required: true
-    hint: A description of the field for the editors
+    unique: false
     localized: false
-
-- unit: # Name of the field
-    label: Unit
-    type: string
-    required: false
-    hint: A description of the field for the editors
-    localized: false
-
-- cost: # Name of the field
+- cost:
     label: Cost
     type: float
+    hint: The normal cost for this item
     required: true
-    hint: A description of the field for the editors
+    unique: false
     localized: false
-
-- sale_cost: # Name of the field
+- sale_cost:
     label: Sale cost
     type: float
+    hint: What this item will cost when its on sale
     required: false
-    hint: A description of the field for the editors
+    unique: false
     localized: false
-
-- menu_item: # Name of the field
+- unit:
+    label: Unit
+    type: string
+    hint: A description of the field for the editors
+    required: false
+    unique: false
+    localized: false
+- menu_item:
     label: Menu Item
     type: belongs_to
-    class_name: menu_items
     hint: A description of the field for the editors
+    required: false
+    unique: false
     localized: false
+    class_name: menu_items
+    ui_enabled: true

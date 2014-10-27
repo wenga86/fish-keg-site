@@ -1,111 +1,97 @@
-# Public name of this content type
+---
 name: Menu items
-
-# TODO: explain
-slug: menu_items
-
-# Explanation for the backoffice
 description: A description of the content type for the editors
-
-# Default field (e.g title)
+slug: menu_items
 label_field_name: title
-
-# Order of entries
-order_by: manually # default: manually, also available: created_at or any field slug
-
-# Order direction
-# order_direction: asc # default: asc, also available: desc
-
-# Display entries grouped by <field> in the backoffice
-# group_by: <your field>
-
-# Activate public 'create' API (e.g for a contact form)
-# public_submission_enabled: false
-
-# Emails to be notified on new entries using the public API
-# public_submission_accounts: ['john@acme.net']
-
-# Describe each field. The name shoud always be an underscored string
+order_by: created_at
+order_direction: asc
+group_by: menu
 fields:
-- title: # Name of the field
+- title:
     label: Title
     type: string
+    hint: The title of the product. This will appear as the heading for the product
     required: true
-    hint: A description of the field for the editors
-    localized: false
-
-- menu: # Name of the field
+    unique: false
+    localized: true
+- menu:
     label: Menu
     type: belongs_to
+    hint: This us the menu the product will belong to. This decides what sections
+      this product will appear in.
+    required: false
+    unique: false
+    localized: false
     class_name: menus
     ui_enabled: true
-    hint: A description of the field for the editors
-    localized: false
-
-- prices: # Name of the field
+- prices:
     label: Prices
     type: has_many
+    hint: These are the prices for the product. You can specify the cost as well as
+      the sale cost when it goes on sale.
+    required: true
+    unique: false
+    localized: false
     class_name: prices
     inverse_of: menu_item
     ui_enabled: true
-    required: true
-    hint: A description of the field for the editors
-    localized: false
-
-- description: # Name of the field
+- description:
     label: Description
     type: text
+    hint: This is the description that will be show under the products heading. You
+      may enter your own custom HTML here as well.
     required: false
-    hint: A description of the field for the editors
-    localized: false
-    # Enable or not the RTE [html|text]
-    # text_formatting: html
-
-- start_sale_date: # Name of the field
-    label: Start sale date
-    type: date
-    required: false
-    hint: A description of the field for the editors
-    localized: false
-
-- end_sale_date: # Name of the field
-    label: End sale date
-    type: date
-    required: false
-    hint: A description of the field for the editors
-    localized: false
-
-- min_pieces: # Name of the field
+    unique: false
+    localized: true
+    text_formatting: html
+- min_pieces:
     label: Min Pieces
     type: integer
+    hint: The minimum number of pieces a customer may get in a pound
     required: false
-    hint: A description of the field for the editors
+    unique: false
     localized: false
-
-- max_pieces: # Name of the field
+- max_pieces:
     label: Max Pieces
     type: integer
+    hint: The maximum number of pieces a customer may get in a pound
     required: false
-    hint: A description of the field for the editors
+    unique: false
     localized: false
-
-- active: # Name of the field
-    label: Active
-    type: boolean
-    required: false
-    hint: A description of the field for the editors
-    localized: false
-
-- image: # Name of the field
-    label: Image
-    type: file
-    required: false
-    hint: A description of the field for the editors
-    localized: false
-
-- position: # Name of the field
+- position:
     label: Position
     type: integer
+    hint: You can specify the order in which this proucts show up with this field.
+    required: true
+    unique: false
+    localized: false
+- start_sale_date:
+    label: Start Sale Date
+    type: date
+    hint: You can specify the start date and end date this product should be on sale
+      for.
     required: false
+    unique: false
+    localized: false
+- end_sale_date:
+    label: End Sale Date
+    type: date
+    hint: You can specify the end date and end date this product should be on sale
+      for.
+    required: false
+    unique: false
+    localized: false
+- on_sale:
+    label: On Sale
+    type: boolean
+    hint: You can manually turn on whether an Item is on sale or not.
+    required: false
+    unique: false
+    localized: false
+- image:
+    label: Image
+    type: file
     hint: A description of the field for the editors
+    required: false
+    unique: false
     localized: false

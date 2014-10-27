@@ -597,3 +597,65 @@ uninitialized constant Class::TZInfo
 * Reloaded "content_types", "content_entries" at 2014-10-26 17:13:02 -0500
 * Reloaded "content_types", "content_entries" at 2014-10-26 17:14:05 -0500
 * Reloaded "content_types", "content_entries" at 2014-10-26 17:16:27 -0500
+* Reloaded "content_types", "content_entries" at 2014-10-26 17:20:58 -0500
+* Reloaded "content_types", "content_entries" at 2014-10-26 17:21:14 -0500
+* Reloaded "content_types", "content_entries" at 2014-10-26 17:21:19 -0500
+* Reloaded "content_types", "content_entries" at 2014-10-26 17:24:02 -0500
+* Reloaded "content_types", "content_entries" at 2014-10-26 17:24:22 -0500
+* Reloaded "content_types", "content_entries" at 2014-10-26 17:24:26 -0500
+* Reloaded "content_types", "content_entries" at 2014-10-26 17:25:21 -0500
+* Reloaded "content_types", "content_entries" at 2014-10-26 17:27:46 -0500
+* Reloaded "content_types", "content_entries" at 2014-10-26 17:27:53 -0500
+* Reloaded "content_types", "content_entries" at 2014-10-26 17:29:40 -0500
+* Reloaded "content_types", "content_entries" at 2014-10-26 17:34:18 -0500
+* Reloaded "content_types", "content_entries" at 2014-10-26 17:34:20 -0500
+* Reloaded "content_types", "content_entries" at 2014-10-26 17:34:46 -0500
+* Reloaded "content_types", "content_entries" at 2014-10-26 17:34:48 -0500
+* Reloaded "content_types", "content_entries" at 2014-10-26 17:36:34 -0500
+* Reloaded "content_types", "content_entries" at 2014-10-26 17:37:58 -0500
+* Reloaded "content_types", "content_entries" at 2014-10-26 17:38:44 -0500
+* Reloaded "content_types", "content_entries" at 2014-10-26 17:38:45 -0500
+* Reloaded "content_types", "content_entries" at 2014-10-26 17:41:40 -0500
+* Reloaded "content_types", "content_entries" at 2014-10-26 17:42:00 -0500
+* Reloaded "content_types", "content_entries" at 2014-10-26 17:42:18 -0500
+* Reloaded "content_types", "content_entries" at 2014-10-26 17:42:25 -0500
+* Reloaded "content_entries" at 2014-10-26 17:47:19 -0500
+* Reloaded "content_entries" at 2014-10-26 17:47:22 -0500
+* Reloaded "content_entries" at 2014-10-26 17:47:28 -0500
+* Reloaded "content_entries" at 2014-10-26 19:38:19 -0500
+["/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_entry.rb:203:in `method_missing'", "/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_type.rb:80:in `block (2 levels) in build_entry'", "/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_type.rb:73:in `each'", "/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_type.rb:73:in `block in build_entry'", "/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_type.rb:68:in `tap'", "/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_type.rb:68:in `build_entry'", "/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:75:in `add'", "/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:29:in `block (2 levels) in fetch_from_filesystem'", "/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `each'", "/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `each_with_index'", "/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `block in fetch_from_filesystem'", "/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `each'", "/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `fetch_from_filesystem'", "/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:13:in `read'", "/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:48:in `block (2 levels) in reload'", "/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:40:in `each'", "/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:40:in `block in reload'", "/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter.rb:99:in `with_locale'", "/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:39:in `reload'", "/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon/listen.rb:41:in `block in apply'", "/Users/eagnew/.gem/ruby/2.1.2/gems/listen-2.7.11/lib/listen/listener.rb:282:in `call'", "/Users/eagnew/.gem/ruby/2.1.2/gems/listen-2.7.11/lib/listen/listener.rb:282:in `_process_changes'", "/Users/eagnew/.gem/ruby/2.1.2/gems/listen-2.7.11/lib/listen/listener.rb:239:in `block in _wait_for_changes'", "/Users/eagnew/.gem/ruby/2.1.2/gems/listen-2.7.11/lib/listen/listener.rb:222:in `loop'", "/Users/eagnew/.gem/ruby/2.1.2/gems/listen-2.7.11/lib/listen/listener.rb:222:in `_wait_for_changes'", "/Users/eagnew/.gem/ruby/2.1.2/gems/listen-2.7.11/lib/listen/listener.rb:318:in `block in _start_wait_thread'"]
+The 'menu_items' content type does not have a field named 'active'.
+The 'menu_items' content type does not have a field named 'active'.
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_type.rb:86:in `rescue in block (2 levels) in build_entry'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_type.rb:74:in `block (2 levels) in build_entry'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_type.rb:73:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_type.rb:73:in `block in build_entry'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_type.rb:68:in `tap'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/models/content_type.rb:68:in `build_entry'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:75:in `add'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:29:in `block (2 levels) in fetch_from_filesystem'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `each_with_index'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `block in fetch_from_filesystem'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `fetch_from_filesystem'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:13:in `read'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:48:in `block (2 levels) in reload'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:40:in `each'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:40:in `block in reload'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter.rb:99:in `with_locale'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_mounter-1.4.4/lib/locomotive/mounter/reader/runner.rb:39:in `reload'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/locomotivecms_wagon-1.5.0/lib/locomotive/wagon/listen.rb:41:in `block in apply'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/listen-2.7.11/lib/listen/listener.rb:282:in `call'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/listen-2.7.11/lib/listen/listener.rb:282:in `_process_changes'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/listen-2.7.11/lib/listen/listener.rb:239:in `block in _wait_for_changes'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/listen-2.7.11/lib/listen/listener.rb:222:in `loop'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/listen-2.7.11/lib/listen/listener.rb:222:in `_wait_for_changes'
+	/Users/eagnew/.gem/ruby/2.1.2/gems/listen-2.7.11/lib/listen/listener.rb:318:in `block in _start_wait_thread'
+
+
+[Locomotive::Mounter::Models::ContentField] setting an unknown attribute 'searchable' with the value 'true'
+* Reloaded "content_entries" at 2014-10-26 19:39:46 -0500
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2014-10-26 19:39:46 -0500
+* Reloaded "content_types", "content_entries" at 2014-10-26 19:39:46 -0500
+* Reloaded "pages", "snippets" at 2014-10-26 19:39:46 -0500
